@@ -1,0 +1,51 @@
+*{
+	font-family: "Verdana", monospace;
+	font-size: 20px;
+}
+
+#external{
+	color: blue;
+}
+
+h1{
+	font-size: 3em;
+}
+
+#uppercase{
+	text-transform: uppercase;
+}
+
+ol .learn-list-items{
+	background: #aed19d;
+}
+
+/* #10 combinator */
+
+ol[type="1"] li{
+	border: 2px solid rgb(157, 176, 209);
+}
+
+
+/* decendant */
+
+section img{
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+}
+
+/* child */
+
+section > ul > li{
+	letter-spacing: 20px;
+}
+
+ul ~ p {
+	text-align: center;
+}
+
+/*adjacent*/
+
+#adjacent + ul {
+	list-style: none;
+}
